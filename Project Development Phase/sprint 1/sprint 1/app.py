@@ -27,7 +27,7 @@ app.secret_key = 'your secret key'
 
 @app.route('/')
 def home():
-    message = "TEAM ID : PNT2022TMID37544" +" "+ "BATCH ID : B1-1M3E "
+    message = "TEAM ID : PNT2022TMID16301" +" "+ "BATCH ID : B8-1M3E "
     return render_template('index.html',mes=message)
 
 
@@ -353,4 +353,3 @@ def delete(ID):
         
         flash("Delected Successfully", "success")
         return redirect(url_for("admin"))
-
