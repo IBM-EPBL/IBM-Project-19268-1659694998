@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@RIZATHOUFIQ 
+IBM-EPBL
+/
+IBM-Project-19268-1659694998
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+IBM-Project-19268-1659694998/Project Development Phase/sprint 2/sprint 2/app.py /
+@RIZATHOUFIQ
+RIZATHOUFIQ Add files via upload
+Latest commit 956097b 13 hours ago
+ History
+ 1 contributor
+529 lines (439 sloc)  18.9 KB
+
 from __future__ import print_function
 from audioop import add
 import datetime
@@ -28,7 +57,7 @@ app.secret_key = 'your secret key'
 
 @app.route('/')
 def home():
-    message = "TEAM ID : PNT2022TMID37544" +" "+ "BATCH ID : B1-1M3E "
+    message = "TEAM ID : PNT2022TMID16301" +" "+ "BATCH ID : B8-1M3E "
     return render_template('index.html',mes=message)
 
 
@@ -527,3 +556,18 @@ def agentform():
             con.close()
 
     return render_template('agentregister.html')
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+IBM-Project-19268-1659694998/app.py at main · IBM-EPBL/IBM-Project-19268-1659694998
